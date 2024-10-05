@@ -1,0 +1,189 @@
+@media (max-width: 768px) {
+    .nav-links {
+        display: none !important;
+    }
+
+    .sidebar-toggle {
+        display: flex !important;
+        cursor: pointer;
+    }
+
+    .close-x {
+        display: none;
+    }
+
+    .sidebar-toggle.active .close-x {
+        display: inline !important;
+    }
+
+    .sidebar-toggle.active .hamburger {
+        display: none !important;
+    }
+
+    #slider {
+        .main {
+            .swiper {
+                height: 500px;
+
+                .swiper-slide {
+                    img {
+                        object-fit: inherit;
+                    }
+                }
+            }
+
+            .swiper-slide {
+                background-color: transparent;
+            }
+        }
+    }
+
+    footer {
+        .footer {
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+            row-gap: 20px;
+            align-items: center;
+            justify-content: center;
+
+            .email {
+                justify-content: center;
+            }
+        }
+    }
+
+    #populyar {
+        .main {
+            .title {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+            }
+
+            .servers {
+                display: flex !important;
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    #contact {
+        padding: 0px 10px;
+
+        .contactform {
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    width: 100% !important;
+                    height: 1px !important;
+                }
+            }
+        }
+    }
+
+    #profil {
+        padding: 0px 20px;
+
+        .profil {
+            flex-direction: column !important;
+            text-align: center !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: auto !important;
+
+            .myserver {
+                top: 190px !important;
+            }
+        }
+
+        .servers {
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+    }
+
+    #login {
+        padding: 0px 20px;
+    }
+
+    #register {
+        padding: 0px 20px;
+    }
+
+    #serverdetails {
+        padding: 0px 30px;
+
+        .main {
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            row-gap: 30px;
+            align-items: center;
+
+            .server {
+                .serverdetails {
+                    display: flex !important;
+                    gap: 30px;
+
+                    .categoriya {
+                        top: 180px !important;
+                    }
+                }
+            }
+        }
+
+        .comment {
+            .comments {
+                display: flex !important;
+                flex-direction: column !important;
+            }
+        }
+    }
+
+    #serveradd {
+        padding: 0p 30px !important;
+    }
+
+    #oferta {
+        padding: 0px 30px;
+    }
+
+    #category {
+        padding: 0px 30px;
+
+        .category {
+            flex-direction: column !important;
+            row-gap: 20px !important;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .servers{
+            display: flex !important;
+            flex-direction: column !important;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .close-x {
+        display: none !important;
+    }
+}

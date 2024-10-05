@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+  .sidebar-toggle {
+    display: flex !important;
+    cursor: pointer;
+  }
+  .close-x {
+    display: none;
+  }
+  .sidebar-toggle.active .close-x {
+    display: inline !important;
+  }
+  .sidebar-toggle.active .hamburger {
+    display: none !important;
+  }
+  #slider .main .swiper {
+    height: 500px;
+  }
+  #slider .main .swiper .swiper-slide img {
+    -o-object-fit: inherit;
+       object-fit: inherit;
+  }
+  #slider .main .swiper-slide {
+    background-color: transparent;
+  }
+  footer .footer {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .footer .email {
+    justify-content: center;
+  }
+  #populyar .main .title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  #populyar .main .servers {
+    display: flex !important;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact {
+    padding: 0px 10px;
+  }
+  #contact .contactform {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .contactform .name {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .contactform .name p {
+    width: 100% !important;
+    height: 1px !important;
+  }
+  #profil {
+    padding: 0px 20px;
+  }
+  #profil .profil {
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+  }
+  #profil .profil .myserver {
+    top: 190px !important;
+  }
+  #profil .servers {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #login {
+    padding: 0px 20px;
+  }
+  #register {
+    padding: 0px 20px;
+  }
+  #serverdetails {
+    padding: 0px 30px;
+  }
+  #serverdetails .main {
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+  }
+  #serverdetails .main .server .serverdetails {
+    display: flex !important;
+    gap: 30px;
+  }
+  #serverdetails .main .server .serverdetails .categoriya {
+    top: 180px !important;
+  }
+  #serverdetails .comment .comments {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #serveradd {
+    padding: 0p 30px !important;
+  }
+  #oferta {
+    padding: 0px 30px;
+  }
+  #category {
+    padding: 0px 30px;
+  }
+  #category .category {
+    flex-direction: column !important;
+    row-gap: 20px !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #category .servers {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) {
+  .close-x {
+    display: none !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
